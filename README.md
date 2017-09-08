@@ -17,7 +17,7 @@ Go in your RubyMine, open Terminal and Enter:
 Windows:
 
 1. Download https://rubyinstaller.org/downloads/
-2. from 1 to 4 https://www.youtube.com/watch?v=BU9TdMqLAIg 
+2. Watch from 1 to 4 https://www.youtube.com/watch?v=BU9TdMqLAIg 
 3. ChromeDriver - https://sites.google.com/a/chromium.org/chromedriver/downloads or
 4. FireFox_geckodriver - https://github.com/mozilla/geckodriver/releases
 
