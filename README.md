@@ -24,9 +24,9 @@ Windows:
 require 'rubygems'
 require 'selenium-webdriver'
 
-Selenium::WebDriver::Chrome.driver_path="C:\\Workplace\\chromedriver\\chromedriver.exe"
-caps = Selenium::WebDriver::Remote::Capabilities.chrome(:chrome_options => {detach: true})
-driver = Selenium::WebDriver.for :chrome, desired_capabilities: caps
+#Selenium::WebDriver::Chrome.driver_path="C:\\Workplace\\chromedriver\\chromedriver.exe"
+#caps = Selenium::WebDriver::Remote::Capabilities.chrome(:chrome_options => {detach: true})
+#driver = Selenium::WebDriver.for :chrome, desired_capabilities: caps
 
 Selenium::WebDriver::Firefox.driver_path="C:\\Workplace\\geckodriver\\geckodriver.exe"
 caps = Selenium::WebDriver::Remote::Capabilities.firefox(:firefox_options => {detach: true})
