@@ -4,9 +4,9 @@ How install geckodriver?
 
 Go in your RubyMine, open Terminal and Enter:
 
-- 1. go to https://gorails.com/setup/ 
+- 1. go to https://gorails.com/setup/ ;
   2.select need you version Ubuntu or Windiws and install some dependencies for Ruby; 
-  3. Select "From source" Tab and install   
+  3. Select "From source" Tab and install;   
   Next:
 - sudo apt install npm          
 - sudo npm install geckodriver *or*
