@@ -1,5 +1,7 @@
 Ruby-Automation
 
+You can read https://github.com/SeleniumHQ/selenium/wiki/Ruby-Bindings
+
 How install geckodriver?
 
 Go in your RubyMine, open Terminal and Enter:
