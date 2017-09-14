@@ -10,6 +10,7 @@ driver.action.move_to(driver.find_element(:link_text, "Почта")).perform #- 
 sleep (3)                                                               #- ожидание
 driver.find_element(:link_text, 'css - Check tag classes with watir? - Stack Overflow').click
 driver.manage.window.move_to(300,400)                                   #- переместить окно браузера (координаты)
+driver.navigate.back                                                    #- вернуться назад   
 driver.manage.window.maximize                                           #- Сделать браузер на все окно
 driver.quit                                                             #- закрыть браузер
 
