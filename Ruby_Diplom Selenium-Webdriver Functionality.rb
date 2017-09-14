@@ -1,7 +1,6 @@
 require 'rubygems'
 require 'selenium-webdriver'
 
-
 Selenium::WebDriver::Chrome.driver_path="C:\\Workplace\\chromedriver\\chromedriver.exe"
 caps = Selenium::WebDriver::Remote::Capabilities.chrome(:chrome_options => {detach: true})
 driver = Selenium::WebDriver.for :chrome, desired_capabilities: caps
@@ -81,7 +80,7 @@ sleep (0.7)
 driver.find_element(:name, 'teslnorsedigital@gmail.com').click
 sleep (0.7)
 driver.navigate.to "https://gmail.com"
-sleep (0.7)
+sleep (0.7)...#restore password
 
 puts driver.manage.logs.get :browser
 driver.quit
