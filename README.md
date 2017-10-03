@@ -21,7 +21,8 @@ Go in your RubyMine, open Terminal and Enter:
 - sudo chmod +x /usr/bin/geckodriver
 ///////////////////////////////////////////////////////
 
-Windows:
+Windows: 
+If you have programm bash on windows - enter in "bash terminal" cd /mnt/c - this is Navigate to the C: drive on Windows. Do this every time you open the Linux console.
 
 1. Download https://rubyinstaller.org/downloads/
 2. Watch from 1 to 4 https://www.youtube.com/watch?v=BU9TdMqLAIg 
