@@ -8,8 +8,10 @@ Go in your RubyMine, open Terminal and Enter:
 
 - -go to https://gorails.com/setup/ ;
 - -select need you version Ubuntu or Windiws and install some dependencies for Ruby; 
-- -Select "From source" Tab and install;   
+- -Select "From source" Tab and install;  
+
   Next:
+  
 - sudo apt install npm          
 - sudo npm install geckodriver *or*
 
@@ -39,3 +41,8 @@ driver = Selenium::WebDriver.for :chrome, desired_capabilities: caps
 Selenium::WebDriver::Firefox.driver_path="C:\\Workplace\\geckodriver\\geckodriver.exe"
 driver = Selenium::WebDriver.for :firefox
 
+- in Terminal RubyMine:
+
+- ruby --version
+
+- gem install selenium-webdriver
