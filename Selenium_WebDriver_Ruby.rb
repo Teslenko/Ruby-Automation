@@ -15,3 +15,8 @@ driver.navigate.back                                                    #- ве�
 driver.manage.window.maximize                                           #- Сделать браузер на все окно
 driver.quit                                                             #- закрыть браузер
 
+---------------Загрузить изображение в окно-----------------
+element = driver.find_element(:name, 'candidate[image]')                #- Локатор "выбрать изображение"
+element.send_keys("C:\\Users\\user\\Pictures\\RAV.png")                 #- Указываем путь фото
+driver.find_element(:name, "commit").click                              #- Нажимаем кнопку "Загрузить (Создать)" Пример из СтакОверфлов -https://stackoverflow.com/questions/30352369/uploading-files-using-ruby-selenium
+------------------------------------------------------------
